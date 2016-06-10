@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlaybackView" customModule="VikePlayer" customModuleProvider="target">
+            <connections>
+                <outlet property="elpsedTimeLabel" destination="wtE-RO-9vV" id="f00-0A-ToV"/>
+                <outlet property="playButton" destination="Ani-us-8kx" id="tnc-Yr-5Iu"/>
+                <outlet property="remainingTimeLabel" destination="vco-wY-nhx" id="ZBF-pf-dVf"/>
+                <outlet property="slider" destination="w2J-E1-inx" id="hCU-GR-YK8"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="Playback View">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="111"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Vy-hG-CuJ" userLabel="Background View">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="111"/>
+                    <color key="backgroundColor" red="0.086274509799999996" green="0.1019607843" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="00:17" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wtE-RO-9vV" userLabel="Elapsed Time Label">
+                    <rect key="frame" x="20" y="30" width="32" height="81"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ani-us-8kx" userLabel="Play Button">
+                    <rect key="frame" x="62" y="30" width="251" height="81"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="45" id="b03-vj-xS6"/>
+                    </constraints>
+                    <state key="normal" image="ic_pause"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="b03-vj-xS6"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=compact">
+                        <mask key="constraints">
+                            <include reference="b03-vj-xS6"/>
+                        </mask>
+                    </variation>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="03:14" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vco-wY-nhx" userLabel="Remaining Time Label">
+                    <rect key="frame" x="323" y="30" width="32" height="81"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="w2J-E1-inx" userLabel="Progress Slider">
+                    <rect key="frame" x="-2" y="0.0" width="379" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="jyd-PV-vyf"/>
+                    </constraints>
+                    <color key="thumbTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </slider>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="vco-wY-nhx" secondAttribute="bottom" id="0x5-3V-WNN"/>
+                <constraint firstItem="Ani-us-8kx" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="6Ll-09-QCF"/>
+                <constraint firstAttribute="bottom" secondItem="Ani-us-8kx" secondAttribute="bottom" id="8AX-JS-Nx2"/>
+                <constraint firstItem="w2J-E1-inx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="AEZ-eD-mHe"/>
+                <constraint firstItem="Ani-us-8kx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Bjk-KO-6Xj"/>
+                <constraint firstAttribute="trailing" secondItem="2Vy-hG-CuJ" secondAttribute="trailing" id="Jr9-hb-HaR"/>
+                <constraint firstItem="w2J-E1-inx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="LEe-LH-9Gu"/>
+                <constraint firstItem="vco-wY-nhx" firstAttribute="top" secondItem="w2J-E1-inx" secondAttribute="bottom" id="LNK-K9-V5Q"/>
+                <constraint firstAttribute="bottom" secondItem="2Vy-hG-CuJ" secondAttribute="bottom" id="OhJ-xb-9Pv"/>
+                <constraint firstItem="w2J-E1-inx" firstAttribute="leading" secondItem="Ani-us-8kx" secondAttribute="trailing" constant="10" id="PMY-19-5Jb"/>
+                <constraint firstAttribute="trailing" secondItem="w2J-E1-inx" secondAttribute="trailing" id="U1d-kF-sc3"/>
+                <constraint firstItem="Ani-us-8kx" firstAttribute="leading" secondItem="wtE-RO-9vV" secondAttribute="trailing" constant="10" id="Ww2-hV-nBq"/>
+                <constraint firstItem="vco-wY-nhx" firstAttribute="leading" secondItem="Ani-us-8kx" secondAttribute="trailing" constant="10" id="Xd1-T3-D0q"/>
+                <constraint firstItem="Ani-us-8kx" firstAttribute="top" secondItem="w2J-E1-inx" secondAttribute="bottom" id="aI9-l1-kvT"/>
+                <constraint firstItem="vco-wY-nhx" firstAttribute="leading" secondItem="w2J-E1-inx" secondAttribute="trailing" constant="10" id="ahT-Ru-KDA"/>
+                <constraint firstItem="vco-wY-nhx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cJN-Eg-a1s"/>
+                <constraint firstItem="wtE-RO-9vV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="fJE-yT-FWg">
+                    <variation key="heightClass=compact" constant="20" symbolic="YES"/>
+                </constraint>
+                <constraint firstItem="wtE-RO-9vV" firstAttribute="top" secondItem="w2J-E1-inx" secondAttribute="bottom" id="j7g-ZV-hgn"/>
+                <constraint firstAttribute="bottom" secondItem="wtE-RO-9vV" secondAttribute="bottom" id="qhZ-ys-Ko8"/>
+                <constraint firstAttribute="trailing" secondItem="vco-wY-nhx" secondAttribute="trailing" constant="20" id="tPQ-jN-XYr">
+                    <variation key="heightClass=compact" constant="20" symbolic="YES"/>
+                </constraint>
+                <constraint firstItem="wtE-RO-9vV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="uYp-hU-czn"/>
+                <constraint firstItem="w2J-E1-inx" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="vpZ-JO-oLt"/>
+                <constraint firstItem="2Vy-hG-CuJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="wYE-jo-sFd">
+                    <variation key="heightClass=regular-widthClass=compact" constant="12"/>
+                </constraint>
+                <constraint firstItem="2Vy-hG-CuJ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xyK-Sw-NyY"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="LEe-LH-9Gu"/>
+                    <exclude reference="PMY-19-5Jb"/>
+                    <exclude reference="U1d-kF-sc3"/>
+                    <exclude reference="vpZ-JO-oLt"/>
+                    <exclude reference="uYp-hU-czn"/>
+                    <exclude reference="Bjk-KO-6Xj"/>
+                    <exclude reference="ahT-Ru-KDA"/>
+                    <exclude reference="cJN-Eg-a1s"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=compact">
+                <mask key="constraints">
+                    <exclude reference="AEZ-eD-mHe"/>
+                    <include reference="PMY-19-5Jb"/>
+                    <include reference="vpZ-JO-oLt"/>
+                    <exclude reference="j7g-ZV-hgn"/>
+                    <include reference="uYp-hU-czn"/>
+                    <exclude reference="6Ll-09-QCF"/>
+                    <include reference="Bjk-KO-6Xj"/>
+                    <exclude reference="aI9-l1-kvT"/>
+                    <exclude reference="LNK-K9-V5Q"/>
+                    <exclude reference="Xd1-T3-D0q"/>
+                    <include reference="ahT-Ru-KDA"/>
+                    <include reference="cJN-Eg-a1s"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="constraints">
+                    <include reference="LEe-LH-9Gu"/>
+                    <include reference="U1d-kF-sc3"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="218.5" y="272.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_pause" width="18" height="24"/>
+    </resources>
+</document>

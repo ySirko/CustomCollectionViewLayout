@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E021A741D08917B00E10911 /* PlaybackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E021A731D08917B00E10911 /* PlaybackView.swift */; };
+		3E3409711D098F6F0056B250 /* TabItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3409701D098F6E0056B250 /* TabItemCollectionViewCell.swift */; };
+		3E3409771D0991680056B250 /* TabItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E3409741D0991680056B250 /* TabItemCollectionViewCell.xib */; };
+		3E3409781D0991680056B250 /* AndroidTabBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E3409751D0991680056B250 /* AndroidTabBar.xib */; };
+		3E3409791D0991680056B250 /* PlaybackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E3409761D0991680056B250 /* PlaybackView.xib */; };
+		3E3AFFDC1D099E9E009667AC /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AFFDB1D099E9E009667AC /* UIColor.swift */; };
+		3E3AFFDF1D09AC27009667AC /* ContentEnumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3AFFDE1D09AC27009667AC /* ContentEnumeration.swift */; };
+		3E3E3C971D07E5AA00D8750B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E3C961D07E5A900D8750B /* AboutViewController.swift */; };
+		3E3E3C9C1D0802DC00D8750B /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3E3C9B1D0802DC00D8750B /* PhotoModel.swift */; };
+		3E488FAA1D095D0700C4F5B9 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E488FA91D095D0700C4F5B9 /* UIStoryboard.swift */; };
+		3E488FAC1D095DDD00C4F5B9 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E488FAB1D095DDD00C4F5B9 /* UIViewController.swift */; };
+		3E5FDC841D070D6900DA8F8A /* SelectMediaTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FDC831D070D6900DA8F8A /* SelectMediaTypeViewController.swift */; };
+		3E5FDC861D070D8100DA8F8A /* GalleryPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FDC851D070D8100DA8F8A /* GalleryPageViewController.swift */; };
+		3EBB4DB91D095F6600B6522E /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBB4DB81D095F6600B6522E /* PlayButton.swift */; };
+		3ED44FC41D086B1300F9343E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED44FC31D086B1300F9343E /* UIView.swift */; };
+		3EE579C81D06CE3E00071F7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE579C71D06CE3E00071F7B /* AppDelegate.swift */; };
+		3EE579CD1D06CE3E00071F7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE579CB1D06CE3E00071F7B /* Main.storyboard */; };
+		3EE579CF1D06CE3E00071F7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE579CE1D06CE3E00071F7B /* Assets.xcassets */; };
+		3EE579D21D06CE3E00071F7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE579D01D06CE3E00071F7B /* LaunchScreen.storyboard */; };
+		3EE579DD1D06CE3E00071F7B /* VikePlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE579DC1D06CE3E00071F7B /* VikePlayerTests.swift */; };
+		3EE579E81D06CE3E00071F7B /* VikePlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE579E71D06CE3E00071F7B /* VikePlayerUITests.swift */; };
+		3EE579F71D06CE9500071F7B /* MediaCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE579F61D06CE9500071F7B /* MediaCollectionViewController.swift */; };
+		3EE579FE1D06D0F400071F7B /* CollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE579FD1D06D0F400071F7B /* CollectionDataSource.swift */; };
+		3EE57A001D06D12F00071F7B /* Identifiably.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE579FF1D06D12F00071F7B /* Identifiably.swift */; };
+		3EE57A021D06D17C00071F7B /* MediaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE57A011D06D17C00071F7B /* MediaCollectionViewCell.swift */; };
+		3EE57A091D06D9C900071F7B /* CollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE57A081D06D9C900071F7B /* CollectionLayout.swift */; };
+		3EE57A0D1D06EC7200071F7B /* GalleryContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE57A0C1D06EC7200071F7B /* GalleryContainerViewController.swift */; };
+		3EEC608A1D09678C00C27512 /* AndroidTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEC60891D09678C00C27512 /* AndroidTabBar.swift */; };
+		3EF5C5F01D08288E00A8104C /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF5C5EF1D08288E00A8104C /* PhotoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EE579D91D06CE3E00071F7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EE579BC1D06CE3D00071F7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EE579C31D06CE3E00071F7B;
+			remoteInfo = VikePlayer;
+		};
+		3EE579E41D06CE3E00071F7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3EE579BC1D06CE3D00071F7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EE579C31D06CE3E00071F7B;
+			remoteInfo = VikePlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E021A731D08917B00E10911 /* PlaybackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaybackView.swift; path = Views/PlaybackView.swift; sourceTree = "<group>"; };
+		3E3409701D098F6E0056B250 /* TabItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabItemCollectionViewCell.swift; path = Cells/TabItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		3E3409741D0991680056B250 /* TabItemCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TabItemCollectionViewCell.xib; path = XIBs/TabItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		3E3409751D0991680056B250 /* AndroidTabBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AndroidTabBar.xib; path = XIBs/AndroidTabBar.xib; sourceTree = "<group>"; };
+		3E3409761D0991680056B250 /* PlaybackView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlaybackView.xib; path = XIBs/PlaybackView.xib; sourceTree = "<group>"; };
+		3E3AFFDB1D099E9E009667AC /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColor.swift; path = Classes/UIColor.swift; sourceTree = "<group>"; };
+		3E3AFFDE1D09AC27009667AC /* ContentEnumeration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentEnumeration.swift; path = Classes/ContentEnumeration.swift; sourceTree = "<group>"; };
+		3E3E3C961D07E5A900D8750B /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = ViewControllers/AboutViewController.swift; sourceTree = "<group>"; };
+		3E3E3C9B1D0802DC00D8750B /* PhotoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		3E488FA91D095D0700C4F5B9 /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIStoryboard.swift; path = Classes/UIStoryboard.swift; sourceTree = "<group>"; };
+		3E488FAB1D095DDD00C4F5B9 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = Classes/UIViewController.swift; sourceTree = "<group>"; };
+		3E5FDC831D070D6900DA8F8A /* SelectMediaTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectMediaTypeViewController.swift; path = ViewControllers/SelectMediaTypeViewController.swift; sourceTree = "<group>"; };
+		3E5FDC851D070D8100DA8F8A /* GalleryPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GalleryPageViewController.swift; path = ViewControllers/GalleryPageViewController.swift; sourceTree = "<group>"; };
+		3EBB4DB81D095F6600B6522E /* PlayButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayButton.swift; path = Views/PlayButton.swift; sourceTree = "<group>"; };
+		3ED44FC31D086B1300F9343E /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = Classes/UIView.swift; sourceTree = "<group>"; };
+		3EE579C41D06CE3E00071F7B /* VikePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VikePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE579C71D06CE3E00071F7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EE579CC1D06CE3E00071F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EE579CE1D06CE3E00071F7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EE579D11D06CE3E00071F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EE579D31D06CE3E00071F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EE579D81D06CE3E00071F7B /* VikePlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VikePlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE579DC1D06CE3E00071F7B /* VikePlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VikePlayerTests.swift; sourceTree = "<group>"; };
+		3EE579DE1D06CE3E00071F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EE579E31D06CE3E00071F7B /* VikePlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VikePlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EE579E71D06CE3E00071F7B /* VikePlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VikePlayerUITests.swift; sourceTree = "<group>"; };
+		3EE579E91D06CE3E00071F7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EE579F61D06CE9500071F7B /* MediaCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MediaCollectionViewController.swift; path = ViewControllers/MediaCollectionViewController.swift; sourceTree = "<group>"; };
+		3EE579FD1D06D0F400071F7B /* CollectionDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionDataSource.swift; path = Classes/CollectionDataSource.swift; sourceTree = "<group>"; };
+		3EE579FF1D06D12F00071F7B /* Identifiably.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Identifiably.swift; path = Classes/Identifiably.swift; sourceTree = "<group>"; };
+		3EE57A011D06D17C00071F7B /* MediaCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MediaCollectionViewCell.swift; path = Cells/MediaCollectionViewCell.swift; sourceTree = "<group>"; };
+		3EE57A081D06D9C900071F7B /* CollectionLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionLayout.swift; path = Classes/CollectionLayout.swift; sourceTree = "<group>"; };
+		3EE57A0C1D06EC7200071F7B /* GalleryContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GalleryContainerViewController.swift; path = ViewControllers/GalleryContainerViewController.swift; sourceTree = "<group>"; };
+		3EEC60891D09678C00C27512 /* AndroidTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AndroidTabBar.swift; path = Views/AndroidTabBar.swift; sourceTree = "<group>"; };
+		3EF5C5EF1D08288E00A8104C /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoViewController.swift; path = ViewControllers/PhotoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EE579C11D06CE3E00071F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE579D51D06CE3E00071F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE579E01D06CE3E00071F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E021A721D08913900E10911 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3E021A731D08917B00E10911 /* PlaybackView.swift */,
+				3EBB4DB81D095F6600B6522E /* PlayButton.swift */,
+				3EEC60891D09678C00C27512 /* AndroidTabBar.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3E3AFFDD1D09AC05009667AC /* Enumerations */ = {
+			isa = PBXGroup;
+			children = (
+				3E3AFFDE1D09AC27009667AC /* ContentEnumeration.swift */,
+			);
+			name = Enumerations;
+			sourceTree = "<group>";
+		};
+		3E3E3C9A1D0802DC00D8750B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E3E3C9B1D0802DC00D8750B /* PhotoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3ED44FC21D086AFB00F9343E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3ED44FC31D086B1300F9343E /* UIView.swift */,
+				3E488FA91D095D0700C4F5B9 /* UIStoryboard.swift */,
+				3E488FAB1D095DDD00C4F5B9 /* UIViewController.swift */,
+				3E3AFFDB1D099E9E009667AC /* UIColor.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		3EE579BB1D06CE3D00071F7B = {
+			isa = PBXGroup;
+			children = (
+				3EE579C61D06CE3E00071F7B /* VikePlayer */,
+				3EE579DB1D06CE3E00071F7B /* VikePlayerTests */,
+				3EE579E61D06CE3E00071F7B /* VikePlayerUITests */,
+				3EE579C51D06CE3E00071F7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EE579C51D06CE3E00071F7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EE579C41D06CE3E00071F7B /* VikePlayer.app */,
+				3EE579D81D06CE3E00071F7B /* VikePlayerTests.xctest */,
+				3EE579E31D06CE3E00071F7B /* VikePlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EE579C61D06CE3E00071F7B /* VikePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				3E3AFFDD1D09AC05009667AC /* Enumerations */,
+				3E021A721D08913900E10911 /* Views */,
+				3ED44FC21D086AFB00F9343E /* Extensions */,
+				3E3E3C9A1D0802DC00D8750B /* Models */,
+				3EE579FC1D06D0E100071F7B /* Classes */,
+				3EE579FA1D06D08100071F7B /* Protocols */,
+				3EE579F91D06D07700071F7B /* Cells */,
+				3EE579F81D06CEB200071F7B /* Storyboards and XIBs */,
+				3EE579F51D06CE8400071F7B /* ViewControllers */,
+				3EE579C71D06CE3E00071F7B /* AppDelegate.swift */,
+				3EE579CE1D06CE3E00071F7B /* Assets.xcassets */,
+				3EE579D31D06CE3E00071F7B /* Info.plist */,
+			);
+			path = VikePlayer;
+			sourceTree = "<group>";
+		};
+		3EE579DB1D06CE3E00071F7B /* VikePlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EE579DC1D06CE3E00071F7B /* VikePlayerTests.swift */,
+				3EE579DE1D06CE3E00071F7B /* Info.plist */,
+			);
+			path = VikePlayerTests;
+			sourceTree = "<group>";
+		};
+		3EE579E61D06CE3E00071F7B /* VikePlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EE579E71D06CE3E00071F7B /* VikePlayerUITests.swift */,
+				3EE579E91D06CE3E00071F7B /* Info.plist */,
+			);
+			path = VikePlayerUITests;
+			sourceTree = "<group>";
+		};
+		3EE579F51D06CE8400071F7B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3EE579F61D06CE9500071F7B /* MediaCollectionViewController.swift */,
+				3E5FDC851D070D8100DA8F8A /* GalleryPageViewController.swift */,
+				3EE57A0C1D06EC7200071F7B /* GalleryContainerViewController.swift */,
+				3E5FDC831D070D6900DA8F8A /* SelectMediaTypeViewController.swift */,
+				3E3E3C961D07E5A900D8750B /* AboutViewController.swift */,
+				3EF5C5EF1D08288E00A8104C /* PhotoViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3EE579F81D06CEB200071F7B /* Storyboards and XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				3E3409741D0991680056B250 /* TabItemCollectionViewCell.xib */,
+				3E3409751D0991680056B250 /* AndroidTabBar.xib */,
+				3E3409761D0991680056B250 /* PlaybackView.xib */,
+				3EE579D01D06CE3E00071F7B /* LaunchScreen.storyboard */,
+				3EE579CB1D06CE3E00071F7B /* Main.storyboard */,
+			);
+			name = "Storyboards and XIBs";
+			sourceTree = "<group>";
+		};
+		3EE579F91D06D07700071F7B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3EE57A011D06D17C00071F7B /* MediaCollectionViewCell.swift */,
+				3E3409701D098F6E0056B250 /* TabItemCollectionViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		3EE579FA1D06D08100071F7B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3EE579FF1D06D12F00071F7B /* Identifiably.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		3EE579FC1D06D0E100071F7B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3EE579FD1D06D0F400071F7B /* CollectionDataSource.swift */,
+				3EE57A081D06D9C900071F7B /* CollectionLayout.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EE579C31D06CE3E00071F7B /* VikePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EE579EC1D06CE3E00071F7B /* Build configuration list for PBXNativeTarget "VikePlayer" */;
+			buildPhases = (
+				3EE579C01D06CE3E00071F7B /* Sources */,
+				3EE579C11D06CE3E00071F7B /* Frameworks */,
+				3EE579C21D06CE3E00071F7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VikePlayer;
+			productName = VikePlayer;
+			productReference = 3EE579C41D06CE3E00071F7B /* VikePlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EE579D71D06CE3E00071F7B /* VikePlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EE579EF1D06CE3E00071F7B /* Build configuration list for PBXNativeTarget "VikePlayerTests" */;
+			buildPhases = (
+				3EE579D41D06CE3E00071F7B /* Sources */,
+				3EE579D51D06CE3E00071F7B /* Frameworks */,
+				3EE579D61D06CE3E00071F7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EE579DA1D06CE3E00071F7B /* PBXTargetDependency */,
+			);
+			name = VikePlayerTests;
+			productName = VikePlayerTests;
+			productReference = 3EE579D81D06CE3E00071F7B /* VikePlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EE579E21D06CE3E00071F7B /* VikePlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EE579F21D06CE3E00071F7B /* Build configuration list for PBXNativeTarget "VikePlayerUITests" */;
+			buildPhases = (
+				3EE579DF1D06CE3E00071F7B /* Sources */,
+				3EE579E01D06CE3E00071F7B /* Frameworks */,
+				3EE579E11D06CE3E00071F7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EE579E51D06CE3E00071F7B /* PBXTargetDependency */,
+			);
+			name = VikePlayerUITests;
+			productName = VikePlayerUITests;
+			productReference = 3EE579E31D06CE3E00071F7B /* VikePlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EE579BC1D06CE3D00071F7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ThinkMobiles;
+				TargetAttributes = {
+					3EE579C31D06CE3E00071F7B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3EE579D71D06CE3E00071F7B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3EE579C31D06CE3E00071F7B;
+					};
+					3EE579E21D06CE3E00071F7B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3EE579C31D06CE3E00071F7B;
+					};
+				};
+			};
+			buildConfigurationList = 3EE579BF1D06CE3D00071F7B /* Build configuration list for PBXProject "VikePlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EE579BB1D06CE3D00071F7B;
+			productRefGroup = 3EE579C51D06CE3E00071F7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EE579C31D06CE3E00071F7B /* VikePlayer */,
+				3EE579D71D06CE3E00071F7B /* VikePlayerTests */,
+				3EE579E21D06CE3E00071F7B /* VikePlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EE579C21D06CE3E00071F7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE579D21D06CE3E00071F7B /* LaunchScreen.storyboard in Resources */,
+				3E3409781D0991680056B250 /* AndroidTabBar.xib in Resources */,
+				3EE579CF1D06CE3E00071F7B /* Assets.xcassets in Resources */,
+				3E3409791D0991680056B250 /* PlaybackView.xib in Resources */,
+				3EE579CD1D06CE3E00071F7B /* Main.storyboard in Resources */,
+				3E3409771D0991680056B250 /* TabItemCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE579D61D06CE3E00071F7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE579E11D06CE3E00071F7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EE579C01D06CE3E00071F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ED44FC41D086B1300F9343E /* UIView.swift in Sources */,
+				3EEC608A1D09678C00C27512 /* AndroidTabBar.swift in Sources */,
+				3EE57A021D06D17C00071F7B /* MediaCollectionViewCell.swift in Sources */,
+				3E3AFFDF1D09AC27009667AC /* ContentEnumeration.swift in Sources */,
+				3E3E3C971D07E5AA00D8750B /* AboutViewController.swift in Sources */,
+				3E5FDC861D070D8100DA8F8A /* GalleryPageViewController.swift in Sources */,
+				3EE579F71D06CE9500071F7B /* MediaCollectionViewController.swift in Sources */,
+				3E5FDC841D070D6900DA8F8A /* SelectMediaTypeViewController.swift in Sources */,
+				3EBB4DB91D095F6600B6522E /* PlayButton.swift in Sources */,
+				3E488FAA1D095D0700C4F5B9 /* UIStoryboard.swift in Sources */,
+				3E3AFFDC1D099E9E009667AC /* UIColor.swift in Sources */,
+				3EF5C5F01D08288E00A8104C /* PhotoViewController.swift in Sources */,
+				3E021A741D08917B00E10911 /* PlaybackView.swift in Sources */,
+				3EE57A001D06D12F00071F7B /* Identifiably.swift in Sources */,
+				3EE57A0D1D06EC7200071F7B /* GalleryContainerViewController.swift in Sources */,
+				3EE57A091D06D9C900071F7B /* CollectionLayout.swift in Sources */,
+				3E3E3C9C1D0802DC00D8750B /* PhotoModel.swift in Sources */,
+				3EE579C81D06CE3E00071F7B /* AppDelegate.swift in Sources */,
+				3E488FAC1D095DDD00C4F5B9 /* UIViewController.swift in Sources */,
+				3E3409711D098F6F0056B250 /* TabItemCollectionViewCell.swift in Sources */,
+				3EE579FE1D06D0F400071F7B /* CollectionDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE579D41D06CE3E00071F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE579DD1D06CE3E00071F7B /* VikePlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE579DF1D06CE3E00071F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE579E81D06CE3E00071F7B /* VikePlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EE579DA1D06CE3E00071F7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EE579C31D06CE3E00071F7B /* VikePlayer */;
+			targetProxy = 3EE579D91D06CE3E00071F7B /* PBXContainerItemProxy */;
+		};
+		3EE579E51D06CE3E00071F7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EE579C31D06CE3E00071F7B /* VikePlayer */;
+			targetProxy = 3EE579E41D06CE3E00071F7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3EE579CB1D06CE3E00071F7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EE579CC1D06CE3E00071F7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EE579D01D06CE3E00071F7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EE579D11D06CE3E00071F7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EE579EA1D06CE3E00071F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EE579EB1D06CE3E00071F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EE579ED1D06CE3E00071F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VikePlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ThinkMobiles.VikePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3EE579EE1D06CE3E00071F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VikePlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ThinkMobiles.VikePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3EE579F01D06CE3E00071F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VikePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ThinkMobiles.VikePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VikePlayer.app/VikePlayer";
+			};
+			name = Debug;
+		};
+		3EE579F11D06CE3E00071F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VikePlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ThinkMobiles.VikePlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VikePlayer.app/VikePlayer";
+			};
+			name = Release;
+		};
+		3EE579F31D06CE3E00071F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VikePlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ThinkMobiles.VikePlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VikePlayer;
+			};
+			name = Debug;
+		};
+		3EE579F41D06CE3E00071F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VikePlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ThinkMobiles.VikePlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VikePlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EE579BF1D06CE3D00071F7B /* Build configuration list for PBXProject "VikePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE579EA1D06CE3E00071F7B /* Debug */,
+				3EE579EB1D06CE3E00071F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EE579EC1D06CE3E00071F7B /* Build configuration list for PBXNativeTarget "VikePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE579ED1D06CE3E00071F7B /* Debug */,
+				3EE579EE1D06CE3E00071F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EE579EF1D06CE3E00071F7B /* Build configuration list for PBXNativeTarget "VikePlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE579F01D06CE3E00071F7B /* Debug */,
+				3EE579F11D06CE3E00071F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EE579F21D06CE3E00071F7B /* Build configuration list for PBXNativeTarget "VikePlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE579F31D06CE3E00071F7B /* Debug */,
+				3EE579F41D06CE3E00071F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EE579BC1D06CE3D00071F7B /* Project object */;
+}
